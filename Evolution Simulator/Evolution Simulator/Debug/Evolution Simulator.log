@@ -1,3 +1,7 @@
-﻿  main.cpp
+﻿  Creature.cpp
+c:\users\hayk khulyan\desktop\evolution-simulator\evolution simulator\evolution simulator\creature.cpp(41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\hayk khulyan\desktop\evolution-simulator\evolution simulator\evolution simulator\creature.cpp(48): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+c:\users\hayk khulyan\desktop\evolution-simulator\evolution simulator\evolution simulator\creature.cpp(130): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\hayk khulyan\desktop\evolution-simulator\evolution simulator\evolution simulator\creature.cpp(135): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
   Evolution Simulator.vcxproj -> C:\Users\Hayk Khulyan\Desktop\Evolution-Simulator\Evolution Simulator\Debug\Evolution Simulator.exe
   Evolution Simulator.vcxproj -> C:\Users\Hayk Khulyan\Desktop\Evolution-Simulator\Evolution Simulator\Debug\Evolution Simulator.pdb (Partial PDB)
