@@ -241,6 +241,22 @@ bool Creature::isTouchingMouse(sf::Vector2i mousePosition) {
 	return false;
 }
 
+float Creature::differenceInStats(Creature otherCreature)
+{
+	float differences[10];
+	float differencePercentage = 0.0f;
+
+	for (int i = 0; i < std::size(differences); i++) {
+		differences[i] = abs(this->features[i] - otherCreature.features[i]);
+	}
+
+	for (int i = 0; i < std::size(differences); i++) {
+		differencePercentage += differences[i] / 10;
+	}
+
+	return differencePercentage;
+}
+
 void Creature::allocateStats(int skillPoints) {
 	std::random_device rd;
 	std::mt19937 mt(rd());

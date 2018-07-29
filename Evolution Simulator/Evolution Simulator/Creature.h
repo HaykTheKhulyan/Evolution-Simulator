@@ -15,6 +15,8 @@ public:
 	void createStatsText(sf::Font& myStatsFont);
 	bool isTouchingMouse(sf::Vector2i mousePosition);
 
+	float differenceInStats(Creature otherCreature);
+
 	bool selected = false;
 
 	std::string FEATURE_LIST[10] = {
